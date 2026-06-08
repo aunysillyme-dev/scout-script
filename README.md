@@ -4,6 +4,10 @@ A sanitized, template-driven system for **agent-assisted opportunity scouting** 
 
 This repo ships with **no personal data**. Every niche-specific value (income goal, service lanes, search terms) is a placeholder the client fills in for their own skillset. Bring it to your LLM or AI agent and it interviews you, builds your personalized kit, and runs the same scouting process for *your* niche.
 
+## 👉 New here? Start with [SETUP.md](SETUP.md)
+
+The easiest path needs **no install**: copy [`PROMPT.md`](PROMPT.md) into any AI assistant (Claude, ChatGPT, …) and it interviews you and builds your kit. [SETUP.md](SETUP.md) covers that plus the local scanner and the always-on option.
+
 ## Quick start
 
 ```bash
