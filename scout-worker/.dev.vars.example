@@ -1,0 +1,9 @@
+# Copy to .dev.vars for local `wrangler dev`. Never commit the real file.
+#   cp .dev.vars.example .dev.vars
+#
+# Optional GitHub token — improves API rate limits. A read-only / no-scope
+# personal access token is enough; the scout only reads public data.
+GITHUB_TOKEN=
+
+# Optional one-line niche search injected at runtime (see wrangler.toml.example).
+NICHE_QUERY=

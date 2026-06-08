@@ -1,0 +1,25 @@
+# Copy this file to wrangler.toml and fill in your own values before deploying.
+#   cp wrangler.toml.example wrangler.toml
+
+name = "opportunity-scout-worker"
+main = "src/index.js"
+compatibility_date = "2026-05-21"
+
+# Runs the scout once an hour. Adjust the cron as you like.
+[triggers]
+crons = ["0 * * * *"]
+
+# Optional KV persistence for /leads and /memory. The Worker runs fine without
+# it. To enable:
+#   1. npx wrangler kv namespace create SCOUT_MEMORY
+#   2. Paste the printed id below and uncomment the block.
+# [[kv_namespaces]]
+# binding = "SCOUT_MEMORY"
+# id = "REPLACE_WITH_YOUR_OWN_KV_NAMESPACE_ID"
+
+# Optional: inject one niche-specific GitHub search without editing code, e.g.
+#   [vars]
+#   NICHE_QUERY = 'label:bounty react is:issue is:open'
+#
+# A GitHub token improves rate limits. Do NOT put it here — set it as a secret:
+#   npx wrangler secret put GITHUB_TOKEN
