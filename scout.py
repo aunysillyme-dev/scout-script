@@ -553,7 +553,7 @@ def _lanes_to_rows(value: str) -> str:
 
 def build_scout_board(search_terms: list[str]) -> str:
     """Markdown board of deep-link searches for every registered source."""
-    terms = search_terms or ["[add search terms]"]
+    terms = search_terms or ["add your search terms"]
     out = [
         "# Scout Board",
         "",
