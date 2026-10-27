@@ -1,5 +1,7 @@
 # Opportunity Scout
 
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/aunysillyme-dev/scout-script/badge)](https://scorecard.dev/viewer/?uri=github.com/aunysillyme-dev/scout-script)
+
 A sanitized, template-driven system for **agent-assisted opportunity scouting** — finding legitimate, low-risk income signals (freelance leads, public bounties, inbox triage) and moving exactly one safe action forward per run.
 
 This repo ships with **no personal data**. Every niche-specific value (income goal, service lanes, search terms) is a placeholder the client fills in for their own skillset. Bring it to your LLM or AI agent and it interviews you, builds your personalized kit, and runs the same scouting process for *your* niche.
